@@ -1,22 +1,22 @@
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-### 第四讲
+## 第四讲
 ---
 
 ##### Game1:Partnership Game
  有两个实体共同完成一个协作项目,这两家公司平分Profits,每个股东都要选择为公司投入多少精力
 strategy：Going to do it in hours **[0,1,2,3,4]**   ,it is continuum of possible choices
-profits :: $ 4*[I + II + b*I*II]  b \in [0 , \frac {1}{4}]  $ ,there're some synergies **协同**
+profits: $ 4*[I + II + b*I*II]  b \in [0 , \frac {1}{4}]  $ ,there're some synergies **协同**
 payoffs: $ U_{1}(S_{1},S_{2}) = \frac {1}{2} * 4*[S_{1} + S_{2} + b*S_{1}*S_{2}]- (S_{1})^2  $ , U2 same as U1
 
 #####  Strategies of game:
 
 1. 在$S_{2}$已知的情况下求$S_{1}$的最大值(**偏导数**) ：
-$2*(1 + b*S_{2} -2*S_{1})$
+$$2*(1 + b*S_{2} -2*S_{1})$$
 2. 用二阶导数求出最大值或最小值，这里的二阶导数小于零(**-2**),为最大值
 3. 使其一阶导数等于零，求出$S_{1},S_{2}$的函数关系:
-1.在策略$S_{2}$下参与者**I**的最佳对策$BR_{1}(S_{2}):S_{1}=1+b*S_{2}$    
-2.在策略$S_{1}$下参与者**II**的最佳对策$BR_{2}(S_{1}):S_{2}=1+b*S_{1}$
+1.在策略$S_{2}$下参与者**I**的最佳对策$$BR_{1}(S_{2}):S_{1}=1+b*S_{2}$$    
+2.在策略$S_{1}$下参与者**II**的最佳对策$$BR_{2}(S_{1}):S_{2}=1+b*S_{1}$$
 4. 绘制图像(**这里b取1/4**)：
 ![Alt text](./第四讲.png)
 由图可知，当参与者II的策略选择为0的时候，参与者I的最佳策略是1；当参与者II的策略选择为4的时候，参与者I的最佳策略为2。由此可得，小于1大于2的策略都不会是参与者I的最佳策略，**协同导致(synergy leads)**对于小于1大于2的策略也都不会是参与者II的最佳策略。
