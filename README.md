@@ -6,8 +6,8 @@
 ##### Game1:Partnership Game
  有两个实体共同完成一个协作项目,这两家公司平分Profits,每个股东都要选择为公司投入多少精力
 strategy：Going to do it in hours **[0,1,2,3,4]**   ,it is continuum of possible choices
-profits: $ 4*[I + II + b*I*II]  b \in [0 , \frac {1}{4}]  $ ,there're some synergies **协同**
-payoffs: $ U_{1}(S_{1},S_{2}) = \frac {1}{2} * 4*[S_{1} + S_{2} + b*S_{1}*S_{2}]- (S_{1})^2  $ , U2 same as U1
+profits: $$ 4*[I + II + b*I*II]  b \in [0 , \frac {1}{4}]  $$ ,there're some synergies **协同**
+payoffs: $$ U_{1}(S_{1},S_{2}) = \frac {1}{2} * 4*[S_{1} + S_{2} + b*S_{1}*S_{2}]- (S_{1})^2  $$ , U2 same as U1
 
 #####  Strategies of game:
 
