@@ -58,7 +58,7 @@ conda remove -n naoqi --all
 # 删除名为naoqi的环境
 ```
 ##### 5.包管理
-** 在这里,我也会写出pip的包管理命令**
+**在这里,我也会写出pip的包管理命令**
 ```
 conda list 
 # 显示当前环境下所有库,以及它的Build,Channel信息
