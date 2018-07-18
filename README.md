@@ -27,6 +27,11 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --set show_channel_urls yes
 # 设置搜索时显示通道地址
 ```
+*1.具体操作同时按Win+R键打开运行窗口,输入cmd,回车：*
+![Alt text](./cmd.png)
+*2.将上面的命令全部复制,到命令行里单击右键就会自动执行复制的命令,添加清华源：*
+![Alt text](./cmd_1.png)
+
 ####  3.如何使用conda
 
 **终于到了重点部分,在这里会介绍使用Conda查看环境;创建环境;环境切换;删除环境;包管理;克隆环境;**
@@ -36,6 +41,9 @@ conda info -e
 conda info --envs
 # 上面两个都是查看当前系统环境,第二个用的是详细参数
 ```
+*同样的方法打开Cmd窗口,输入相应命令即可查看当前的虚拟环境,其中base环境是Anaconda3自带的库,pytorch是我为了学习pytorch框架而创建的虚拟环境：*
+![Alt text](./cmd_2.png)
+
 ##### 2.创建环境
 ```
 conda create -n name python=3.6
@@ -44,6 +52,12 @@ conda create -n name python=3.6
 conda create -n naoqi pillow numpy python=2.7.14
 # 创建名字为naoqi,Python版本为2.7.14的虚拟环境,同时还会安装上pillow numpy这两个库
 ```
+*打开Cmd窗口,输入相应命令就可以创建不同环境,这里我将示范安装naoqi的开发环境：*
+![Alt text](./cmd_3.png)
+![Alt text](./cmd_4.png)
+![Alt text](./cmd_5.png)
+
+
 ##### 3.环境切换
 ```
 activate naoqi
@@ -52,6 +66,14 @@ activate naoqi
 deactivate
 # 退出当前环境,也可以在已激活环境的情况下使用`activate root`切回root环境
 ```
+*在这里我将示范从根环境切换到naoqi环境再切换到pytorch环境,再用下面的包管理命令查看相关的库：*
+![Alt text](./cmd_6.png)
+*切换到pytorch环境：*
+![Alt text](./cmd_7.png)
+*用包管理命令管理环境：*
+![Alt text](./cmd_8.png)
+![Alt text](./cmd_9.png)
+*下面的命令我就不一一示范了,和上面的图片教程差不多,输入相应命令,就能实现相应的目的：*
 ##### 4.删除环境
 ```
 conda remove -n naoqi --all
@@ -105,3 +127,4 @@ conda create --name naoqi_1 --clone naoqi
 ##### 3.按照指示找到你需要切换的虚拟环境下的Python.exe文件
 ![Alt text](./Pycharm_3.png)
 **在找到正确的Python解释器后,Pycharm会自动索引相关的库文件**
+
