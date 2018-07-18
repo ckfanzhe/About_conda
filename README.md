@@ -27,6 +27,7 @@ conda config --set show_channel_urls yes
 ```
 *1.具体操作同时按Win+R键打开运行窗口,输入cmd,回车：*
 ![Alt text](./cmd.png)
+
 *2.将上面的命令全部复制,到命令行里单击右键就会自动执行复制的命令,添加清华源：*
 ![Alt text](./cmd_1.png)
 
