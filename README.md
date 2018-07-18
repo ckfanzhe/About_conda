@@ -126,4 +126,5 @@ conda create --name naoqi_1 --clone naoqi
 ##### 3.按照指示找到你需要切换的虚拟环境下的Python.exe文件
 ![Alt text](./Pycharm_3.png)
 **在找到正确的Python解释器后,Pycharm会自动索引相关的库文件**
+>在这里可以看到网页版：https://ckfanzhe.github.io/About_conda/
 
