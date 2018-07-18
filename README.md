@@ -72,13 +72,14 @@ deactivate
 ![Alt text](./cmd_9.png)
 *下面的命令我就不一一示范了,和上面的图片教程差不多,输入相应命令,就能实现相应的目的：*
 #### 4.删除环境
->>>>>>> d37e5ea025f1c208703e4e0a034b2ade02762f90
+
 ```
 conda remove -n naoqi --all
 # 删除名为naoqi的环境
 ```
 #### 5.包管理
 **在这里,我也会写出pip的包管理命令**
+
 ```
 conda list 
 # 显示当前环境下所有库,以及它的Build,Channel信息
