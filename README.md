@@ -127,5 +127,24 @@ conda create --name naoqi_1 --clone naoqi
 ##### 3.按照指示找到你需要切换的虚拟环境下的Python.exe文件
 ![Alt text](./Pycharm_3.png)
 **在找到正确的Python解释器后,Pycharm会自动索引相关的库文件**
->在这里可以看到网页版：[About_Conda](https://ckfanzhe.github.io/About_conda/)
+
+####  5.如何安装不同位的Python
+**有的时候可能需要安装不同位数的Python以适应不同的工作环境，这个时候就需要运用以下的命令：**
+```
+conda info
+# 查看当前的工作平台
+
+set CONDA_FORCE_32BIT=1  
+# 切换到32位
+
+set CONDA_FORCE_32BIT=   
+# 切换到64位
+```
+>在**切换**到不同的工作平台后,再运行conda create命令就会创建不同位数(*32/64*)的python环境
+
+
+---
+by ：[Fanzhe](https://github.com/ckfanzhe)    [About_Conda](https://ckfanzhe.github.io/About_conda/)
+
+
 
