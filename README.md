@@ -13,7 +13,7 @@
 > 什么是Anaconda:
 > Anaconda指的是一个开源的Python发行版本,其包含了conda、Python等180多个科学包及其依赖项。因为其包含了大量的科学包,所以可以带来许多的便利,其中的Conda也堪称包管理神器。
 
-下载后,基本上是傻瓜式安装,需要注意的是,在安装时这两个选项需要点上：
+下载后,基本上是傻瓜式安装,需要注意的是,在安装时这两个选项需要**点上**：
 ![Alt text](./Anaconda.png)
 
 ####  2.如何更换conda的下载源
@@ -142,6 +142,14 @@ set CONDA_FORCE_32BIT=
 ```
 >在**切换**到不同的工作平台后,再运行conda create命令就会创建不同位数(*32/64*)的python环境
 
+<<<<<<< HEAD
 ---
 by ：[Fanzhe](https://github.com/ckfanzhe)    [About_Conda](https://ckfanzhe.github.io/About_conda/)
+=======
+
+---
+by ：[Fanzhe](https://github.com/ckfanzhe)    [About_Conda](https://ckfanzhe.github.io/About_conda/)
+
+
+>>>>>>> 16af7b4b82d8454564e80e01302d51aba690400d
 
