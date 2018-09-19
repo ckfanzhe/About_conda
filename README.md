@@ -142,14 +142,8 @@ set CONDA_FORCE_32BIT=
 ```
 >在**切换**到不同的工作平台后,再运行conda create命令就会创建不同位数(*32/64*)的python环境
 
-<<<<<<< HEAD
----
-by ：[Fanzhe](https://github.com/ckfanzhe)    [About_Conda](https://ckfanzhe.github.io/About_conda/)
-=======
+
 
 ---
 by ：[Fanzhe](https://github.com/ckfanzhe)    [About_Conda](https://ckfanzhe.github.io/About_conda/)
-
-
->>>>>>> 16af7b4b82d8454564e80e01302d51aba690400d
 
